@@ -11,7 +11,7 @@ publish:
 	poetry publish -r testpypi -u entropax --dry-run
 
 run:
-	poetry run brain-games
+	poetry run brain-even
 
 lint:
 	poetry run flake8 brain_games
