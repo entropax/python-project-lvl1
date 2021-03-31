@@ -18,13 +18,13 @@ def game():
             print("Correct!")
         elif (answer == "no") and (x % 2 != 0):
             point_counter += 1
-            print(f"Correct{name}!")
+            print(f"Correct!")
         else:
-            print(f"Nooo {name} You loose! :(")
+            print(f"'yes' is wrong answer ;(. Correct answer was 'no'. Let's try again, {name}!")
             return
     if point_counter < 2:
         return
-    print(f"Congratulations, {name} You WIN")
+    print(f"Congratulations, {name}!")
 
 
 def main():
