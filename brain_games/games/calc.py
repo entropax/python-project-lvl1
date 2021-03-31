@@ -25,7 +25,7 @@ def game():
             print(
                 f"'{answer}' is wrong answer ;(. Correct answer was"
                 f"'{need}'. Let's try again, {name}!"
-                )
+            )
             return
     if point_counter < 2:
         return
