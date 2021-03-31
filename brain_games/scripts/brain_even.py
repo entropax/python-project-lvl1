@@ -26,6 +26,7 @@ def game():
         return
     print(f"Congratulations, {name} You WIN")
 
+
 def main():
     game()
 
